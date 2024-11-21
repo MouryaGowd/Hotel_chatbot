@@ -15,7 +15,7 @@ loader = CSVLoader(file_path="knowledge.csv")
 documents = loader.load()
 
 # Initialize OpenAI embeddings with the API key from environment variable
-embeddings = OpenAIEmbeddings(openai_api_key="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")
+embeddings = OpenAIEmbeddings(openai_api_key="")
 
 
 # Initialize FAISS vectorstore
